@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSLHRD</title>
+<link href="css/mystyle.css" rel="stylesheet">
+<script src="js/jquery-3.7.1.min.js"></script>
+<script>
+$(function(){
+    $(".gnb_group .nav_1depth > li").hover(function(){
+        $(this).find(".nav_2depth").stop(true).slideToggle();
+    });
+});
+</script>
+</head>
+<body>
+    <div class="top_navigation">
+        <header class="header">
+        <nav class="top_left">
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="">모집안내</a></li>
+                    <li><a href="">입학상담</a></li>
+                    <li><a href="">교육신청</a></li>
+                </ul>
+            </nav>
+            <nav class="top_right">
+                <ul>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="gnb_group">
+        <h1 class="logo"><span>JSL</span>HRD</h1>
+        <nav class="gnb">
+            <ul class="nav_1depth">
+                <li>
+                    <a href="">기업소개</a>
+                    <ul class="nav_2depth">
+                        <li><a href="">인사말</a></li>
+                        <li><a href="">연혁</a></li>
+                        <li><a href="">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">포트폴리오</a>
+                    <ul class="nav_2depth">
+                        <li><a href="">웹프로그래밍</a></li>
+                        <li><a href="">UI/UX디자인</a></li>
+                        <li><a href="">AI크리액티브</a></li>
+                        <li><a href="">앱프로그래밍</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">커뮤니티</a>
+                    <ul class="nav_2depth">
+                        <li><a href="">질문과답변</a></li>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">갤러리</a></li>
+                        <li><a href="">졸업후기</a></li>
+                        <li><a href="">구인구직</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="mainvisual">
+        <div class="visual-inner">
+            <div class="visual-title">
+                <h2>Back End Development</h2>
+                <p>Goooooooooood Man</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="box">
+            <p>배움의 즐거움이 있는곳</p>
+            <h2><span class="logoColor">JSL COLEGE</span> 소식</h2>
+            <p class="cont1">JSL인재개발원 다양한 소식을 확인할 수 있습니다.</p>
+            <span class="more"><a href="">READ MORE &gt;</a></span>
+        </div>
+        <div class="box">
+            <a href="">
+                <img src="./images/image_1.jpg">
+                <h3 class="portTitle">즐거움에도 코딩</h3>
+                <p>그니와 지니가 갔던 카페에서 코딩</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="">
+                <img src="./images/image_2.jpg">
+                <h3 class="portTitle">즐거움에도 코딩</h3>
+                <p>그니와 지니가 갔던 카페에서 코딩</p>
+            </a>
+        </div>
+        <div class="box">
+            <a href="">
+                <img src="./images/image_3.jpg">
+                <h3 class="portTitle">즐거움에도 코딩</h3>
+                <p>그니와 지니가 갔던 카페에서 코딩</p>
+            </a>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Copyright JSLHRD &copy; All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <script>
+    $(function(){
+        
+    });
+    </script>
+</body>
+</html>

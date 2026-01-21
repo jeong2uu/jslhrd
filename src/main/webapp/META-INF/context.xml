@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resources className="org.apache.catalina.webresources.StandardRoot">
+
+        <!-- /img 경로를 F:/upload 폴더와 연결 -->
+        <PreResources
+            className="org.apache.catalina.webresources.DirResourceSet"
+            base="c:/upload"
+            webAppMount="/img"
+        />
+
+    </Resources>
+
+</Context>
